@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    height: 110px;
+    width: 100vw;
+    display: inline-block;
+    margin-left: auto;
+    /* margin-right: 100px; */
+    transition: all .5s;
+    align-items: center;
+    /* margin-top: 10px; */
+    position: fixed;
+    background-color: rgb(0, 0, 0,0.5);
+}
+body{
+    display: flex;
+    background: url(./images/pexels-anni-roenkae-3961199.jpg) center/cover no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-color: f5f5f5;
+    font-family: nonito;
+
+}
+.nav-bar-items{
+    /* display: inline; */
+    padding-left: 50vw;
+    font-family: nonito;
+}
+
+.logo{
+    display: flex;
+    padding-left:6vw;
+    padding-top: 2vh;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgba(255,255,255,.781);
+    font-weight: 300;
+    padding: 25px;
+}
+.row-1{
+    margin-left: 20vw;
+}
+.row-1-h1{
+    font-size: 80px;
+    margin-top: 50vh;
+    color: white;
+    text-align: center  ;
+}
+.row-1-h2{
+    font-size: 50px;
+    color: white;
+}
+.applyNow{
+    background-color: #FF5672;
+    /* border: 1px solid white; */
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 25vw;
+}
+.row-2{
+    width: 100vw;
+    height: 25svh; 
+    margin-top: 45vh;
+    /* border: 1px solid lightseagreen; */
+}
+.mission-vision{
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.content-1{
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.content-2{
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.divider {
+    width: 85vw;
+    height: 2.5px;
+    /* margin: 0 auto 40px; */
+    margin-left: 10vw;
+    background: #c77bf4;
+}
+.Benefits-font{
+    width: 50vw;
+    margin-left: 15vw;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.row-3{
+    width: 80vw;
+    margin-left: 10vw;
+}
+.row3-row1{
+    height: 40vh;
+    display: flex;
+    padding: 50px;
+    text-align: center;
+}
+.row3-row2{
+    display: flex;
+    padding: 50px;
+    text-align: center;
+}
+.image-row4{
+    width: 80vw;
+    height: 70vh;
+    margin-left: 10vw;
+    margin-top: 40px;
+}
+.row5>p{
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.footer-list-items{
+    width: 60vw;
+    height: 20vh;
+    /* display: flex; */
+    margin-left: 100px;
+    /* padding-left: 200px; */
+}
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+}
